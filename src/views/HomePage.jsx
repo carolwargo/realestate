@@ -66,31 +66,41 @@ function HomePage() {
  <div className="w3-container w3-padding-16" id="properties">
 
     <div className="w3-padding-32">
-    <h3 className=" w3-border-light-grey text-center"><b>PEASEANT</b><span className='fw-light'> |PROPERTIES</span></h3>
-  <p className="text-center w3-margin-bottom">...properties that transcend the ordinary, offering exclusivity, seclusion, and a touch of magic.</p>
+    <h3 className=" w3-border-light-grey text-center"><b>PEASEANT</b>
+    <span className='fw-light'> |PROPERTIES</span></h3>
+  <p className="text-center w3-margin-bottom">...properties that transcend the ordinary, 
+  offering exclusivity, seclusion, and a touch of magic.</p>
     <div className="row">
     <div className="w3-col l3 m6 w3-margin-bottom">
       <div className="w3-display-container">
-        <div className="w3-display-topleft w3-black w3-padding"><b>BEACH</b><span className='text-secondary'>|SHANTIES</span></div>
-        <img src={YellowHouse} alt="House" style={{width:"100%"}} className='w3-opacity w3-hover-opacity-off'/>
+        <div className="w3-display-topleft w3-black w3-padding">
+            <b>BEACH</b><span className='text-secondary'>|SHANTIES</span></div>
+        <img src={YellowHouse} alt="House" style={{width:"100%"}} 
+        className='w3-opacity w3-hover-opacity-off'/>
       </div>
     </div>
     <div className="w3-col l3 m6 w3-margin-bottom">
       <div className="w3-display-container">
-        <div className="w3-display-topleft w3-black w3-padding"><b>TRAPPER</b><span className='text-secondary'>|CABINS</span></div>
-        <img src={Triangle} alt="House" style={{width:"100%"}} className='w3-opacity w3-hover-opacity-off'/>
+        <div className="w3-display-topleft w3-black w3-padding">
+            <b>TRAPPER</b><span className='text-secondary'>|CABINS</span></div>
+        <img src={Triangle} alt="House" style={{width:"100%"}} 
+        className='w3-opacity w3-hover-opacity-off'/>
       </div>
     </div>
     <div className="w3-col l3 m6 w3-margin-bottom">
       <div className="w3-display-container">
-        <div className="w3-display-topleft w3-black w3-padding"><b>BARN</b><span className='text-secondary'>|BUILDS</span></div>
-        <img src={WhiteFarm}alt="House" style={{width:"100%"}} className='w3-opacity w3-hover-opacity-off'/>
+        <div className="w3-display-topleft w3-black w3-padding">
+            <b>BARN</b><span className='text-secondary'>|BUILDS</span></div>
+        <img src={WhiteFarm}alt="House" style={{width:"100%"}} 
+        className='w3-opacity w3-hover-opacity-off'/>
       </div>
     </div>
     <div className="w3-col l3 m6 w3-margin-bottom">
       <div className="w3-display-container">
-        <div className="w3-display-topleft w3-black w3-padding"><b>WE</b><span className='text-secondary'>|SHED</span></div>
-        <img src={LakeShed} alt="House" style={{width:"100%"}} className='w3-opacity w3-hover-opacity-off'/>
+        <div className="w3-display-topleft w3-black w3-padding">
+            <b>WE</b><span className='text-secondary'>|SHED</span></div>
+        <img src={LakeShed} alt="House" style={{width:"100%"}} 
+        className='w3-opacity w3-hover-opacity-off'/>
       </div>
     </div>  
     </div>
@@ -142,13 +152,16 @@ function HomePage() {
     <div className="col-sm-12 col-md-8 col-lg-8">
     <div className="w3-display-container w3-padding-16">
   
-        <p style={{fontSize:'14px'}}>"Welcome to our vibrant coastal village, where the town is painted 
+        <p style={{fontSize:'14px'}}>"Welcome to our vibrant coastal village, 
+        where the town is painted 
             with the hues of the sea and the sky! Nestled along the sandy shores, 
             our charming village stands like a cheerful sentinel, adorned in a riot 
             of colors that dance with the sunlight. Wander through the winding 
             walkways lined with cobblestone, each a unique treasure trove of 
             seaside whimsy. Awnings flutter in the wind, casting playful shadows on 
-            the cobblestone streets below with their beachside charm. <span>            <Link to="/" className="link-primary justify-content-end"><p >learn more...</p></Link>
+            the cobblestone streets below with their beachside charm. <span>            
+                <Link to="/" className="link-primary justify-content-end text-decoration-none">
+                    learn more...</Link>
    </span></p>
  </div>
     <div className="col-sm-12 col-md-4 col-lg-4">
@@ -219,7 +232,10 @@ function HomePage() {
     <div className="w3-display-container w3-padding-16">
   <div className="row">
     <div className="col-sm-12 col-md-8 col-lg-8">
-    <p style={{fontSize:'14px'}}>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit?" <span>   <Link to="/" className="link-primary justify-content-end"><p >learn more...</p></Link></span></p></div>
+    <p style={{fontSize:'14px'}}>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit?" 
+    <span>   
+        <Link to="/" className="link-primary justify-content-end">learn more...</Link></span></p> 
+                    </div>
     <div className="col-sm-12 col-md-4 col-lg-4">
   <div className="mb-2">
     <Button variant="dark" className="w-100 mb-2">
@@ -290,7 +306,9 @@ function HomePage() {
     <div className="w3-display-container w3-padding-16">
   <div className="row">
     <div className="col-sm-12 col-md-8 col-lg-8">
-    <p style={{fontSize:'14px'}}>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit?" <span>   <Link to="/" className="link-primary justify-content-end"><p >learn more...</p></Link></span></p> </div>
+    <p style={{fontSize:'14px'}}>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit?" 
+    <span>   
+        <Link to="/" className="link-primary justify-content-end">learn more...</Link></span></p> </div>
     <div className="col-sm-12 col-md-4 col-lg-4">
   <div className="mb-2">
     <Button variant="dark" className="w-100 mb-2">
@@ -359,8 +377,9 @@ function HomePage() {
     <div className="w3-display-container w3-padding-16">
   <div className="row">
     <div className="col-sm-12 col-md-8 col-lg-8">
-        <p style={{fontSize:'14px'}}>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit?" <span>   <Link to="/" className="link-primary justify-content-end"><p >learn more...</p></Link></span></p>
-         
+    <p style={{fontSize:'14px'}}>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit?" 
+    <span>   
+        <Link to="/" className="link-primary justify-content-end">learn more...</Link></span></p> 
     </div>
     <div className="col-sm-12 col-md-4 col-lg-4">
   <div className="mb-2">
@@ -405,7 +424,7 @@ function HomePage() {
 {/**Start About Section*/}
 <div className="w3-black">
 <div id="about">
-    <div className="w3-container px-5">
+    <div className="w3-container">
         <br />
 <h2 className=" w3-border-light-grey text-center w3-margin py-3"><b>ABOUT</b><span className='fw-light'> |US</span></h2>
 
