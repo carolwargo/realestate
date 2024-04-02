@@ -5,7 +5,7 @@ import Navigation from "./components/Navigation";
 import Header from "./components/Header";
 function App() {
   return (
-    <BrowserRouter >
+    <BrowserRouter basename="/realestate">
       <Navigation />
       <Header />
         <Routes>
