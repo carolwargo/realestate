@@ -22,7 +22,7 @@ import Blonde from '../assets/images/RealEstate/Blonde.png';
 import Manager from '../assets/images/RealEstate/Manager.png';
 import Designer from '../assets/images/RealEstate/Designer.png';
 import GirlDesk from '../assets/images/RealEstate/GirlDesk.png';
-
+import Office from '../assets/images/Office.png';
 function HomePage() {
 
     const styles = {
@@ -64,7 +64,6 @@ function HomePage() {
     
  {/**Start page container */}
  <div className="w3-container w3-padding-16" id="properties">
-
     <div className="w3-padding-32">
     <h3 className=" w3-border-light-grey text-center"><b>PEASEANT</b>
     <span className='fw-light'> |PROPERTIES</span></h3>
@@ -106,17 +105,18 @@ function HomePage() {
     </div>
     </div>
     </div> 
+    </div>
 {/**end featured Container*/}
 
 
 {/**Start Projects Container */}
 {/**Start BEACH Builds */}
 <div id="beach"> 
-    <div className="card shadow">
+<hr/>  
+    <br/> 
     <div className="w3-row-padding">
-    <div className="w3-display-container w3-padding">
     <h4><b>BEACH</b><span className="fw-light">|CHANTIES</span></h4>
-        <p style={{fontSize: "12px"}}>Rustic getaways fit for royalty.</p> 
+    <p style={{fontSize: "12px"}}>Subtitle for property.</p>
         </div>
     <div className="w3-display-container w3-padding">
     <div className="w3-col l3 m6 w3-margin-bottom">
@@ -148,57 +148,49 @@ function HomePage() {
     </div>
  
   
-  <div className="row">
-    <div className="col-sm-12 col-md-8 col-lg-8">
-    <div className="w3-display-container w3-padding-16">
+
+    <div className="border-bottom border-top shadow w3-padding-large">
+  <div className="row ">
+    <div className="col-sm-12 col-md-8 col-lg-8 px-2">
   
-        <p style={{fontSize:'14px'}}>"Welcome to our vibrant coastal village, 
-        where the town is painted 
-            with the hues of the sea and the sky! Nestled along the sandy shores, 
-            our charming village stands like a cheerful sentinel, adorned in a riot 
-            of colors that dance with the sunlight. Wander through the winding 
-            walkways lined with cobblestone, each a unique treasure trove of 
-            seaside whimsy. Awnings flutter in the wind, casting playful shadows on 
-            the cobblestone streets below with their beachside charm. <span>            
-                <Link to="/" className="link-primary justify-content-end text-decoration-none">
-                    learn more...</Link>
-   </span></p>
- </div>
-    <div className="col-sm-12 col-md-4 col-lg-4">
+    <h5 style={{fontSize:'14px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit 
+    <span>   
+        <Link to="/" className="link-primary justify-content-end text-decoration-none"> learn more...</Link></span></h5> </div>
+       </div>
+       <div className="col-sm-12 col-md-4 col-lg-4">
+    <div className="w3-margin-top w3-margin-bottom">
   <div className="mb-2">
-    <Button variant="dark" className="w-100 mb-2">
+    <Button variant="dark" className="w-100">
       <Link className="text-white text-decoration-none"><i className="fas fa-download"></i> Specs</Link>
     </Button>
   </div>
   <div className="mb-2">
-    <Button variant="dark" className="w-100 mb-2">
+    <Button variant="dark" className="w-100">
       <Link className="text-white text-decoration-none"><i className="fas fa-calendar-alt"></i> Showing</Link>
     </Button>
   </div>
   <div className="mb-2">
-    <Button variant="dark" className="w-100 mb-2">
+    <Button variant="dark" className="w-100">
       <Link className="text-white text-decoration-none"><i className="fas fa-share"></i> Share</Link>
     </Button>
-  </div>
+    </  div>
 </div>
 </div>
 </div>
 </div>
 </div>
-</div>
-</div>
+
 {/**End BEACH Builds */}
 
 {/**start Trapper Cabins */}
 <div id="trapper"> 
-    <hr/>  
+<hr/>  
     <br/> 
-
-    <div className="card shadow">
+  
     <div className="w3-row-padding">
     <div className="w3-display-container w3-padding">
     <h4><b>TRAPPER</b><span className="fw-light">|CABINS</span></h4>
-        <p style={{fontSize: "12px"}}>Rustic getaways fit for royalty.</p> 
+    <p style={{fontSize: "12px"}}>Subtitle for property.</p>
         </div>
     <div className="w3-display-container w3-padding">
     <div className="w3-col l3 m6 w3-margin-bottom">
@@ -229,30 +221,34 @@ function HomePage() {
       </div>
     </div>
  
-    <div className="w3-display-container w3-padding-16">
-  <div className="row">
-    <div className="col-sm-12 col-md-8 col-lg-8">
-    <p style={{fontSize:'14px'}}>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit?" 
+ 
+   
+    <div className="border-bottom border-top shadow w3-padding-large">
+  <div className="row ">
+    <div className="col-sm-12 col-md-8 col-lg-8 px-2">
+  
+    <h5 style={{fontSize:'14px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit 
     <span>   
-        <Link to="/" className="link-primary justify-content-end">learn more...</Link></span></p> 
-                    </div>
-    <div className="col-sm-12 col-md-4 col-lg-4">
+        <Link to="/" className="link-primary justify-content-end text-decoration-none"> learn more...</Link></span></h5> </div>
+       </div>
+
+       <div className="col-sm-12 col-md-4 col-lg-4">
+    <div className="w3-margin-top w3-margin-bottom">
   <div className="mb-2">
-    <Button variant="dark" className="w-100 mb-2">
+    <Button variant="dark" className="w-100">
       <Link className="text-white text-decoration-none"><i className="fas fa-download"></i> Specs</Link>
     </Button>
   </div>
   <div className="mb-2">
-    <Button variant="dark" className="w-100 mb-2">
+    <Button variant="dark" className="w-100">
       <Link className="text-white text-decoration-none"><i className="fas fa-calendar-alt"></i> Showing</Link>
     </Button>
   </div>
   <div className="mb-2">
-    <Button variant="dark" className="w-100 mb-2">
+    <Button variant="dark" className="w-100">
       <Link className="text-white text-decoration-none"><i className="fas fa-share"></i> Share</Link>
     </Button>
-  </div>
-</div>
+    </div>
 </div>
 </div>
 </div>
@@ -267,11 +263,11 @@ function HomePage() {
 <div id="barns"> 
 <hr/>  
     <br/> 
-    <div className="card shadow">
+  
     <div className="w3-row-padding">
     <div className="w3-display-container w3-padding">
     <h4><b>BARN</b><span className="fw-light">|BUILDS</span></h4>
-        <p style={{fontSize: "12px"}}>Hidden Pearls, Nestled by the Sea.</p>
+    <p style={{fontSize: "12px"}}>Subtitle for property.</p>
         </div>
     <div className="w3-display-container w3-padding">
     <div className="w3-col l3 m6 w3-margin-bottom ">
@@ -301,30 +297,34 @@ function HomePage() {
         <img src={WoodFront} alt="House" style={{width:"100%"}}/>
       </div>
     </div>
- 
+
+
+
+   
+    <div className="border-bottom border-top shadow w3-padding-large">
+  <div className="row ">
+    <div className="col-sm-12 col-md-8 col-lg-8 px-2">
   
-    <div className="w3-display-container w3-padding-16">
-  <div className="row">
-    <div className="col-sm-12 col-md-8 col-lg-8">
-    <p style={{fontSize:'14px'}}>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit?" 
+    <h5 style={{fontSize:'14px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit 
     <span>   
-        <Link to="/" className="link-primary justify-content-end">learn more...</Link></span></p> </div>
-    <div className="col-sm-12 col-md-4 col-lg-4">
+        <Link to="/" className="link-primary justify-content-end text-decoration-none"> learn more...</Link></span></h5> </div>
+       </div>
+       <div className="col-sm-12 col-md-4 col-lg-4">
+    <div className="w3-margin-top w3-margin-bottom">
   <div className="mb-2">
-    <Button variant="dark" className="w-100 mb-2">
+    <Button variant="dark" className="w-100">
       <Link className="text-white text-decoration-none"><i className="fas fa-download"></i> Specs</Link>
     </Button>
   </div>
   <div className="mb-2">
-    <Button variant="dark" className="w-100 mb-2">
+    <Button variant="dark" className="w-100">
       <Link className="text-white text-decoration-none"><i className="fas fa-calendar-alt"></i> Showing</Link>
     </Button>
   </div>
   <div className="mb-2">
-    <Button variant="dark" className="w-100 mb-2">
+    <Button variant="dark" className="w-100">
       <Link className="text-white text-decoration-none"><i className="fas fa-share"></i> Share</Link>
     </Button>
-  </div>
 </div>
 </div>
 </div>
@@ -335,68 +335,73 @@ function HomePage() {
 {/**End Barn Builds */}
 
 
-{/**Start SHEDS */}
+
+{/**Start Barn Builds */}
 <div id="sheds"> 
 <hr/>  
     <br/> 
-    <div className="card shadow">
+  
     <div className="w3-row-padding">
     <div className="w3-display-container w3-padding">
     <h4><b>WE</b><span className="fw-light">|SHEDS</span></h4>
-        <p style={{fontSize: "12px"}}>Hidden Pearls, Nestled by the Sea.</p>
- </div>
+    <p style={{fontSize: "12px"}}>Subtitle for property.</p>
+        </div>
     <div className="w3-display-container w3-padding">
     <div className="w3-col l3 m6 w3-margin-bottom ">
       <div className="w3-display-container">
-      <div className="w3-display-topleft w3-black w3-padding">New-Construction</div>
+        <div className="w3-display-topleft w3-black w3-padding">Renovated</div>
         <img src={WhiteOffice} alt="House" style={{width:"100%"}}/>
       </div>
     </div>
     <div className="w3-col l3 m6 w3-margin-bottom">
       <div className="w3-display-container">
-      <div className="w3-display-topleft w3-black w3-padding">Renovated</div>
+        <div className="w3-display-topleft w3-black w3-padding">Renovated</div>
         <img src={LakeShed} alt="House" style={{width:"100%"}}/>
       </div>
     </div>
 
     <div className="w3-col l3 m6 w3-margin-bottom">
       <div className="w3-display-container">
-        <div className="w3-display-topleft w3-black w3-padding">New-Construction</div>
+        <div className="w3-display-topleft w3-black w3-padding">Renovated</div>
         <img src={BlueShed} alt="House" style={{width:"100%"}}/>
       </div>
     </div>
     
+  
     <div className="w3-col l3 m6 w3-margin-bottom">
       <div className="w3-display-container">
-        <div className="w3-display-topleft w3-black w3-padding">New-Construction</div>
+        <div className="w3-display-topleft w3-black w3-padding">Tear-down</div>
         <img src={BarShed} alt="House" style={{width:"100%"}}/>
       </div>
     </div>
- 
- 
-    <div className="w3-display-container w3-padding-16">
-  <div className="row">
-    <div className="col-sm-12 col-md-8 col-lg-8">
-    <p style={{fontSize:'14px'}}>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit?" 
+
+
+
+   
+    <div className="border-bottom border-top shadow w3-padding-large">
+  <div className="row ">
+    <div className="col-sm-12 col-md-8 col-lg-8 px-2">
+    <h5 style={{fontSize:'14px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit 
     <span>   
-        <Link to="/" className="link-primary justify-content-end">learn more...</Link></span></p> 
-    </div>
+        <Link to="/" className="link-primary justify-content-end text-decoration-none"> learn more...</Link></span></h5> </div>
+       </div>
+
     <div className="col-sm-12 col-md-4 col-lg-4">
+    <div className="w3-margin-top w3-margin-bottom">
   <div className="mb-2">
-    <Button variant="dark" className="w-100 mb-2">
+    <Button variant="dark" className="w-100">
       <Link className="text-white text-decoration-none"><i className="fas fa-download"></i> Specs</Link>
     </Button>
   </div>
   <div className="mb-2">
-    <Button variant="dark" className="w-100 mb-2">
+    <Button variant="dark" className="w-100">
       <Link className="text-white text-decoration-none"><i className="fas fa-calendar-alt"></i> Showing</Link>
     </Button>
   </div>
   <div className="mb-2">
-    <Button variant="dark" className="w-100 mb-2">
+    <Button variant="dark" className="w-100">
       <Link className="text-white text-decoration-none"><i className="fas fa-share"></i> Share</Link>
     </Button>
-  </div>
 </div>
 </div>
 </div>
@@ -404,10 +409,10 @@ function HomePage() {
 </div>
 </div>
 </div>
-{/**End SHEDS */}
-<div>      
-</div>
-<hr/>
+{/**End Barn Builds */}
+
+
+
 {/**End We Shed */} 
 {/**End Projects Section */}
 
@@ -422,15 +427,24 @@ function HomePage() {
 
 {/***********************************************************************/}
 {/**Start About Section*/}
-<div className="w3-black">
 <div id="about">
+<div className="w3-padding-large w3-padding-64">
     <div className="w3-container">
         <br />
-<h2 className=" w3-border-light-grey text-center w3-margin py-3"><b>ABOUT</b><span className='fw-light'> |US</span></h2>
+<div className="row justify-content-center align-items-center">
+<div className="col-sm-12 col-md-4 col-lg-4">
+  <h1 className="py-5"><b>ABOUT</b><span className='fw-light'>US</span></h1>
 
-<p>At Peasant Properties, we redefine luxury by specializing in the extraordinary. Within our portfolio are properties that transcend the ordinary, offering exclusivity, seclusion, and a touch of magic. Our curated selection encompasses unique havens tucked away in serene landscapes, ranging from private beaches and secluded islands to luxury cabins. </p>
+  <p>At Peasant Properties, we redefine luxury by specializing in the extraordinary. Within our portfolio are properties that transcend the ordinary, offering exclusivity, seclusion, and a touch of magic. Our curated selection encompasses unique havens tucked away in serene landscapes, ranging from private beaches and secluded islands to luxury cabins. </p>
+</  div>
+  <div className="col-sm-12 col-md-8 col-lg-8">
+    <img src={Office} alt="office" style={{width:"100%"}}/>
+  </div>
 
   
+  </div>
+</div>
+
      <div className="row w3-padding-32 w3-grayscale">
      <div className="col-md-4">
     <div className="container">
@@ -453,7 +467,7 @@ function HomePage() {
     </div>
     </div>
     </div>
- </div>
+
 {/**Start About Grid */}
 <div className="w3-row-padding w3-grayscale">
 <h3 className="w3-padding-16 text-center"><b>OUR</b>TEAM.</h3>
@@ -469,7 +483,7 @@ function HomePage() {
       <img src={Designer} alt="Jane" style={{width:"100%"}}/>
       <h4>Jasmine Rodriguez</h4>
       <p className="w3-opacity">Design Lead</p>
-      <p style={{fontSize:'12px'}}>Jasmine, Owner and co-founding partner is a true visionary. An architect and interior designer whose creative flair knows no bounds. With a passion for transforming spaces into captivating works of art, Jasmine brings a unique blend of elegance and innovation to every project she undertakes."</p>
+      <p style={{fontSize:'12px'}}>Jasmine, Owner and co-founding partner of Peasant Properties is a true visionary. An architect and interior designer whose creative flair knows no bounds. With a passion for transforming spaces into captivating works of art, Jasmine brings a unique blend of elegance and innovation to every project she undertakes.</p>
       <p><button className="w3-button w3-light-grey w3-block">Contact</button></p>
     </div>
     <div className="w3-col l3 m6 w3-margin-bottom">
@@ -492,11 +506,11 @@ function HomePage() {
 {/**End About Grid */}
 {/**End About Section */}
 <hr/>
-<div className="w3-container w3-padding-32" id="contact">
+<div className="w3-container w3-padding-64" id="contact">
   <div className="row justify-content-center align-items-center">
     <div className="col-sm-12 col-md-6 col-lg-6" >
 <div className="container">
-<h3 className="w3-border-light-grey w3-padding-16">Contact Us</h3>
+<h1 className="w3-border-light-grey w3-padding-16"><b>CONTACT</b>US</h1>
     <p>Let's talk about our next project.</p>
  
 <form action="/action_page.php" target="_blank">
@@ -522,7 +536,7 @@ function HomePage() {
 
   </div>
   </div>
-  </div>  
+  
    {/*End Page Container */}
    
  {/*End Page Content */}
