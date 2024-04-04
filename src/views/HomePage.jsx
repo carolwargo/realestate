@@ -112,13 +112,12 @@ function HomePage() {
 {/**Start Projects Container */}
 {/**Start BEACH Builds */}
 <div id="beach"> 
-<hr/>  
-    <br/> 
-    <div className="w3-row-padding">
-    <h4><b>BEACH</b><span className="fw-light">|CHANTIES</span></h4>
-    <p style={{fontSize: "12px"}}>Subtitle for property.</p>
-        </div>
+        <div className="w3-row-padding">
     <div className="w3-display-container w3-padding">
+    <h4><b>BEACH</b><span className="fw-light">|CHANTIES</span></h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus sit natus facere veritatis blanditiis saepe voluptate velit molestias quasi. Fugit quae delectus inventore eius aliquam natus voluptas minus nulla voluptatum?</p>
+        </div>
+        <div className="w3-display-container w3-padding">
     <div className="w3-col l3 m6 w3-margin-bottom">
       <div className="w3-display-container">
         <div className="w3-display-topleft w3-black w3-padding">Row Home</div>
@@ -150,14 +149,15 @@ function HomePage() {
   
 
     <div className="border-bottom border-top shadow w3-padding-large">
-  <div className="row ">
+    <div className="row justify-content-center align-items-center">
     <div className="col-sm-12 col-md-8 col-lg-8 px-2">
-  
-    <h5 style={{fontSize:'14px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit 
+  <h4><b>Title</b></h4>  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit 
     <span>   
-        <Link to="/" className="link-primary justify-content-end text-decoration-none"> learn more...</Link></span></h5> </div>
+        <Link to="/" className="link-primary justify-content-end text-decoration-none"> learn more...</Link></span></p> 
        </div>
-       <div className="col-sm-12 col-md-4 col-lg-4">
+    
+
+    <div className="col-sm-12 col-md-4 col-lg-4">
     <div className="w3-margin-top w3-margin-bottom">
   <div className="mb-2">
     <Button variant="dark" className="w-100">
@@ -173,7 +173,9 @@ function HomePage() {
     <Button variant="dark" className="w-100">
       <Link className="text-white text-decoration-none"><i className="fas fa-share"></i> Share</Link>
     </Button>
-    </  div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -184,14 +186,12 @@ function HomePage() {
 
 {/**start Trapper Cabins */}
 <div id="trapper"> 
-<hr/>  
-    <br/> 
-  
+<hr/>   
     <div className="w3-row-padding">
     <div className="w3-display-container w3-padding">
     <h4><b>TRAPPER</b><span className="fw-light">|CABINS</span></h4>
-    <p style={{fontSize: "12px"}}>Subtitle for property.</p>
-        </div>
+ <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus sit natus facere veritatis blanditiis saepe voluptate velit molestias quasi. Fugit quae delectus inventore eius aliquam natus voluptas minus nulla voluptatum?</p>
+</div>
     <div className="w3-display-container w3-padding">
     <div className="w3-col l3 m6 w3-margin-bottom">
       <div className="w3-display-container">
@@ -220,19 +220,19 @@ function HomePage() {
         <img src={WhiteTan} alt="House" style={{width:"100%"}}/>
       </div>
     </div>
- 
+
  
    
     <div className="border-bottom border-top shadow w3-padding-large">
-  <div className="row ">
+    <div className="row justify-content-center align-items-center">
     <div className="col-sm-12 col-md-8 col-lg-8 px-2">
-  
-    <h5 style={{fontSize:'14px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit 
+  <h4><b>Title</b></h4>  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit 
     <span>   
-        <Link to="/" className="link-primary justify-content-end text-decoration-none"> learn more...</Link></span></h5> </div>
+        <Link to="/" className="link-primary justify-content-end text-decoration-none"> learn more...</Link></span></p> 
        </div>
+    
 
-       <div className="col-sm-12 col-md-4 col-lg-4">
+    <div className="col-sm-12 col-md-4 col-lg-4">
     <div className="w3-margin-top w3-margin-bottom">
   <div className="mb-2">
     <Button variant="dark" className="w-100">
@@ -248,7 +248,8 @@ function HomePage() {
     <Button variant="dark" className="w-100">
       <Link className="text-white text-decoration-none"><i className="fas fa-share"></i> Share</Link>
     </Button>
-    </div>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -261,13 +262,12 @@ function HomePage() {
 
 {/**Start Barn Builds */}
 <div id="barns"> 
-<hr/>  
-    <br/> 
+<hr/>   
   
     <div className="w3-row-padding">
     <div className="w3-display-container w3-padding">
     <h4><b>BARN</b><span className="fw-light">|BUILDS</span></h4>
-    <p style={{fontSize: "12px"}}>Subtitle for property.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus sit natus facere veritatis blanditiis saepe voluptate velit molestias quasi. Fugit quae delectus inventore eius aliquam natus voluptas minus nulla voluptatum?</p>
         </div>
     <div className="w3-display-container w3-padding">
     <div className="w3-col l3 m6 w3-margin-bottom ">
@@ -302,14 +302,15 @@ function HomePage() {
 
    
     <div className="border-bottom border-top shadow w3-padding-large">
-  <div className="row ">
+    <div className="row justify-content-center align-items-center">
     <div className="col-sm-12 col-md-8 col-lg-8 px-2">
-  
-    <h5 style={{fontSize:'14px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit 
+  <h4><b>Title</b></h4>  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit 
     <span>   
-        <Link to="/" className="link-primary justify-content-end text-decoration-none"> learn more...</Link></span></h5> </div>
+        <Link to="/" className="link-primary justify-content-end text-decoration-none"> learn more...</Link></span></p> 
        </div>
-       <div className="col-sm-12 col-md-4 col-lg-4">
+    
+
+    <div className="col-sm-12 col-md-4 col-lg-4">
     <div className="w3-margin-top w3-margin-bottom">
   <div className="mb-2">
     <Button variant="dark" className="w-100">
@@ -332,19 +333,19 @@ function HomePage() {
 </div>
 </div>
 </div>
+</div>
 {/**End Barn Builds */}
 
 
 
 {/**Start Barn Builds */}
 <div id="sheds"> 
-<hr/>  
-    <br/> 
+<hr/>   
   
     <div className="w3-row-padding">
     <div className="w3-display-container w3-padding">
     <h4><b>WE</b><span className="fw-light">|SHEDS</span></h4>
-    <p style={{fontSize: "12px"}}>Subtitle for property.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus sit natus facere veritatis blanditiis saepe voluptate velit molestias quasi. Fugit quae delectus inventore eius aliquam natus voluptas minus nulla voluptatum?</p>
         </div>
     <div className="w3-display-container w3-padding">
     <div className="w3-col l3 m6 w3-margin-bottom ">
@@ -375,16 +376,15 @@ function HomePage() {
       </div>
     </div>
 
-
-
    
     <div className="border-bottom border-top shadow w3-padding-large">
-  <div className="row ">
+  <div className="row justify-content-center align-items-center">
     <div className="col-sm-12 col-md-8 col-lg-8 px-2">
-    <h5 style={{fontSize:'14px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit 
+  <h4><b>Title</b></h4>  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab qui exercitationem doloribus totam itaque? Velit soluta ea dolores molestias pariatur reiciendis maxime nostrum. Distinctio possimus sed consequatur reprehenderit repudiandae velit 
     <span>   
-        <Link to="/" className="link-primary justify-content-end text-decoration-none"> learn more...</Link></span></h5> </div>
+        <Link to="/" className="link-primary justify-content-end text-decoration-none"> learn more...</Link></span></p> 
        </div>
+    
 
     <div className="col-sm-12 col-md-4 col-lg-4">
     <div className="w3-margin-top w3-margin-bottom">
@@ -409,8 +409,9 @@ function HomePage() {
 </div>
 </div>
 </div>
+</div>
 {/**End Barn Builds */}
-
+<br />
 
 
 {/**End We Shed */} 
@@ -427,86 +428,80 @@ function HomePage() {
 
 {/***********************************************************************/}
 {/**Start About Section*/}
-<div id="about">
-<div className="w3-padding-large w3-padding-64">
+<div id="about" className="about-section" style={{ backgroundColor: 'black', width: '100%' }}>
+  <div className="w3-padding-large w3-padding-32 text-white">
     <div className="w3-container">
-        <br />
-<div className="row justify-content-center align-items-center">
-<div className="col-sm-12 col-md-4 col-lg-4">
-  <h1 className="py-5"><b>ABOUT</b><span className='fw-light'>US</span></h1>
-
-  <p>At Peasant Properties, we redefine luxury by specializing in the extraordinary. Within our portfolio are properties that transcend the ordinary, offering exclusivity, seclusion, and a touch of magic. Our curated selection encompasses unique havens tucked away in serene landscapes, ranging from private beaches and secluded islands to luxury cabins. </p>
-</  div>
-  <div className="col-sm-12 col-md-8 col-lg-8">
-    <img src={Office} alt="office" style={{width:"100%"}}/>
-  </div>
-
-  
+      <div className="row justify-content-center align-items-center">
+        <div className="col-sm-12 col-md-4 col-lg-4">
+          <h1><b>ABOUT</b><span className='fw-light'>US</span></h1>
+          <p>At Peasant Properties, we redefine luxury by specializing in the extraordinary. Within our portfolio are properties that transcend the ordinary, offering exclusivity, seclusion, and a touch of magic. Our curated selection encompasses unique havens tucked away in serene landscapes, ranging from private beaches and secluded islands to luxury cabins. </p>
+        </div>
+        <div className="col-sm-12 col-md-8 col-lg-8">
+          <img src={Office} alt="office" style={{ width: "100%" }} />
+        </div>
+      </div>
+      <br />
+    </div>
+    <hr />
+    <div className="row w3-padding w3-grayscale">
+      <div className="col-md-4">
+        <div className="container">
+          <h3><b>OUR</b>VISION.</h3>
+          <p style={{ fontSize: '14px' }}>Driven by a visionary outlook, our approach to real estate is refreshingly distinct. Unlike conventional definitions of luxury that prioritize size and paid amenities, our vision is centered around the notion of uniqueness. For us, luxury properties are not merely defined by their grandeur, but by their exceptional qualities and unparalleled character. It's this emphasis on individuality and exclusivity that sets their projects apart in a crowded marketplace.</p>
+        </div>
+      </div>
+      <div className="col-md-4">
+        <div className="container ">
+          <h3><b>OUR</b>PASSION.</h3>
+          <p style={{ fontSize: '14px' }}>Our passion lies in uncovering hidden gems, each property meticulously chosen for its ability to transport you to a world of unparalleled tranquility and opulence. Whether you seek the solace of a high-end cabin enveloped by nature's embrace, the serenity of a she shed designed for refined relaxation, or the rustic charm of a barn transformed into a luxurious abode, Peasant Properties is your gateway to an extraordinary living experience.</p>
+        </div>
+      </div>
+      <div className="col-md-4">
+        <div className="container">
+          <h3><b>OUR</b>COMMITMENT.</h3>
+          <p style={{ fontSize: '14px' }}>We pledge and commitment to personalized service and an unwavering dedication to excellence, we strive to make your dream of owning a unique sanctuary a reality. Trust in Peasant Properties to guide you on a journey to discover the extraordinary, where luxury meets seclusion and exclusivity knows no bounds. Welcome to a world where every property tells a story, and your next chapter begins with us.</p>
+        </div>
+      </div>
+    </div>
+    <hr />
+    {/* Start About Grid */}
+    <div className="w3-row-padding w3-grayscale">
+      <h3 className="w3-padding-16 text-center"><b>OUR</b>TEAM.</h3>
+      <div className="w3-col l3 m6 w3-margin-bottom w3-margin-top">
+        <img src={GirlDesk} alt="John" style={{ width: "100%" }} />
+        <h4>Emily Parker</h4>
+        <p className="w3-opacity">Marketing Lead</p>
+        <p style={{ fontSize: '12px' }}>Emily started as an intern 5 years, and has worked her way up to a lead role. She is a natural born storyteller, navigating our ever-evolving landscape with finesse and creativity. Crafting compelling narratives and orchestrating campaigns that resonate with our audience, and motivates her team.</p>
+        <p><button className="w3-button w3-light-grey w3-block">Contact</button></p>
+      </div>
+      <div className="w3-col l3 m6 w3-margin-bottom w3-margin-top">
+        <img src={Designer} alt="Jane" style={{ width: "100%" }} />
+        <h4>Jasmine Rodriguez</h4>
+        <p className="w3-opacity">Design Lead</p>
+        <p style={{ fontSize: '12px' }}>Jasmine, Co-Founding partner of Peasant Properties is a true visionary. An architect and interior designer whose creative flair knows no bounds. With a passion for transforming spaces into captivating works of art, Jasmine brings a unique blend of elegance and innovation to every project she undertakes.</p>
+        <p><button className="w3-button w3-light-grey w3-block">Contact</button></p>
+      </div>
+      <div className="w3-col l3 m6 w3-margin-bottom w3-margin-top">
+        <img src={Manager} alt="Mike" style={{ width: "100%" }} />
+        <h4>Sophia Thompson</h4>
+        <p className="w3-opacity">Project Manager</p>
+        <p style={{ fontSize: '12px' }}>Sophia, Owner and Co-Founding partner orchestrates each phase of a project with precision, ensuring timelines are met and goals exceeded. Sophia's strategic thinking and impeccable attention to detail make her an invaluable asset to any team, driving efficiency and success at every turn.</p>
+        <p><button className="w3-button w3-light-grey w3-block">Contact</button></p>
+      </div>
+      <div className="w3-col l3 m6 w3-margin-bottom w3-margin-top">
+        <img src={Blonde} alt="Dan" style={{ width: "100%" }} />
+        <h4>Isabella Martinez</h4>
+        <p className="w3-opacity">Sales</p>
+        <p style={{ fontSize: '12px' }}>Isabella has been with Peasant Properties from the start and is a force to be reckoned with in the world of sales. Her charismatic leadership and unparalleled expertise empower her team to achieve remarkable results, consistently surpassing expectations and setting new standards of excellence.</p>
+        <p><button className="w3-button w3-light-grey w3-block">Contact</button></p>
+      </div>
+    </div>
   </div>
 </div>
 
-     <div className="row w3-padding-32 w3-grayscale">
-     <div className="col-md-4">
-    <div className="container">
-      <h3><b>OUR</b>VISION.</h3>
-      <p style={{fontSize:'14px'}}>Driven by a visionary outlook, our approach to real estate is refreshingly distinct. Unlike conventional definitions of luxury that prioritize size and paid amenities, our vision is centered around the notion of uniqueness. For us, luxury properties are not merely defined by their grandeur, but by their exceptional qualities and unparalleled character. It's this emphasis on individuality and exclusivity that sets their projects apart in a crowded marketplace.</p>
-   </div>
-    </div>
-
-    <div className="col-md-4">
-      <div className="container ">
-      <h3><b>OUR</b>PASSION.</h3>
-      <p style={{fontSize:'14px'}}>Our passion lies in uncovering hidden gems, each property meticulously chosen for its ability to transport you to a world of unparalleled tranquility and opulence. Whether you seek the solace of a high-end cabin enveloped by nature's embrace, the serenity of a she shed designed for refined relaxation, or the rustic charm of a barn transformed into a luxurious abode, Peasant Properties is your gateway to an extraordinary living experience.</p>
-      </div>
-    </div>
-    
-    <div className="col-md-4">
-    <div className="container">
-    <h3><b>OUR</b>COMMITMENT.</h3>
-    <p style={{fontSize:'14px'}}>We pledge and commitment to personalized service and an unwavering dedication to excellence, we strive to make your dream of owning a unique sanctuary a reality. Trust in Peasant Properties to guide you on a journey to discover the extraordinary, where luxury meets seclusion and exclusivity knows no bounds. Welcome to a world where every property tells a story, and your next chapter begins with us.</p>
-    </div>
-    </div>
-    </div>
-
-{/**Start About Grid */}
-<div className="w3-row-padding w3-grayscale">
-<h3 className="w3-padding-16 text-center"><b>OUR</b>TEAM.</h3>
-
-    <div className="w3-col l3 m6 w3-margin-bottom">
-      <img src={GirlDesk} alt="John" style={{width:"100%"}}/>
-      <h4>Emily Parker</h4>
-      <p className="w3-opacity">Marketing Lead</p>
-      <p style={{fontSize:'12px'}}>Emily started as an intern 5 years, and has worked her way up to a lead role. She is a natural born storyteller, navigating our ever-evolving landscape with finesse and creativity. Crafting compelling narratives and orchestrating campaigns that resonate with our audience, and motivates her team.</p>
-      <p><button className="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div className="w3-col l3 m6 w3-margin-bottom">
-      <img src={Designer} alt="Jane" style={{width:"100%"}}/>
-      <h4>Jasmine Rodriguez</h4>
-      <p className="w3-opacity">Design Lead</p>
-      <p style={{fontSize:'12px'}}>Jasmine, Owner and co-founding partner of Peasant Properties is a true visionary. An architect and interior designer whose creative flair knows no bounds. With a passion for transforming spaces into captivating works of art, Jasmine brings a unique blend of elegance and innovation to every project she undertakes.</p>
-      <p><button className="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div className="w3-col l3 m6 w3-margin-bottom">
-      <img src={Manager} alt="Mike" style={{width:"100%"}}/>
-      <h4>Sophia Thompson</h4>
-      <p className="w3-opacity">Project Manager</p>
-      <p style={{fontSize:'12px'}}>Sophia, Owner and Co-Founding partner orchestrates each phase of a project with precision, ensuring timelines are met and goals exceeded. Sophia's strategic thinking and impeccable attention to detail make her an invaluable asset to any team, driving efficiency and success at every turn.</p>
-      <p><button className="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div className="w3-col l3 m6 w3-margin-bottom">
-      <img src={Blonde} alt="Dan" style={{width:"100%"}}/>
-      <h4>Isabella Martinez</h4>
-      <p className="w3-opacity">Sales</p>
-      <p style={{fontSize:'12px'}}>Isabella has been with Peasant Properties from the start and is a force to be reckoned with in the world of sales. Her charismatic leadership and unparalleled expertise empower her team to achieve remarkable results, consistently surpassing expectations and setting new standards of excellence.</p>
-      <p><button className="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-  </div>
-  </div>
-  </div>
 {/**End About Grid */}
 {/**End About Section */}
-<hr/>
-<div className="w3-container w3-padding-64" id="contact">
+<div className="w3-container w3-padding-48" id="contact">
   <div className="row justify-content-center align-items-center">
     <div className="col-sm-12 col-md-6 col-lg-6" >
 <div className="container">
